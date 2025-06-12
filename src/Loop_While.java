@@ -9,7 +9,8 @@ public class Loop_While {
 
             while (nota != -1) {
                 System.out.println("Diga sua avaliação para o filme ou -1 para encerrar ");
-                nota = leitura.nextDouble(); // vai receber as 3 notas ex: nota 10, 5, 10. total 25
+                nota = leitura.nextDouble();
+
 
                if (nota != -1) {
                    mediaAvaliacao += nota; // quando se usa += { á médiaavaliacao soma seu valor (0) + nota (25)
