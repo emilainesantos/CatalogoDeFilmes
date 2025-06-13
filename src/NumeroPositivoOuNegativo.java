@@ -11,7 +11,7 @@ public class NumeroPositivoOuNegativo {
             System.out.println("Numero Positivo");
 
         } else {
-            System.out.println("Numero negativo");
+            System.out.println("Numero Negativo");
         }
 
     }
